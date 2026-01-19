@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
-/* ================= GLOBAL ================= */
 body {
   font-family: "Inter", sans-serif;
   background: #120521;
@@ -12,7 +11,7 @@ body {
   margin: 0 auto;
 }
 
-/* ================= NAVBAR ================= */
+/* ============= NAVBAR =========== */
 .navbar {
   background: #1a0b2e;
 }
@@ -55,7 +54,7 @@ body {
   background: linear-gradient(30deg, #f7e93f, #fb09b4, #9100f8);
 }
 
-/* ================= HERO ================= */
+/* ========== HERO ========== */
 .hero-container {
   position: relative;
   height: 760px;
@@ -130,7 +129,7 @@ body {
   color: #00f59b;
 }
 
-/* ================= ABOUT ================= */
+/* ========== ABOUT =========== */
 .about-section {
   max-width: 1600px;
   padding: 120px 0;
