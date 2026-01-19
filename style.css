@@ -281,7 +281,6 @@ line-height: 20px;
   margin-bottom: 70px;
 }
 
-/* Grid */
 .episode-grid {
   max-width: 1200px;
   padding-left: 200px;
@@ -305,7 +304,6 @@ line-height: 20px;
   padding: 24px;
 }
 
-/* Card */
 .episode-card {
   background: linear-gradient(180deg, #2d1358, #1c0c36);
   border-radius: 24px;
@@ -317,7 +315,6 @@ line-height: 20px;
   box-shadow: 0 30px 60px rgba(0,0,0,.45);
 }
 
-/* Video */
 .video-box {
   position: relative;
   border-radius: 16px;
@@ -336,7 +333,6 @@ line-height: 20px;
   object-fit: cover;
 }
 
-/* Play Button */
 .play-btn {
   position: absolute;
   inset: 0;
@@ -364,7 +360,6 @@ line-height: 20px;
   display: none;
 }
 
-/* Toggle logic */
 .play-toggle:checked ~ img,
 .play-toggle:checked ~ .play-btn {
   display: none;
@@ -382,6 +377,242 @@ line-height: 20px;
   padding-bottom: 24px;
   font-size: 16px;
   color: #00ff88;
+}
+
+.meet-host {
+  max-width: 1200px;
+  margin: 120px auto 40px;
+  background: linear-gradient(90deg, #2b0b4f, #1a0834);
+  border-radius: 24px;
+  padding: 40px 60px;
+  color: #ffffff;
+}
+
+.meet {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+/* =================Host Content================== */
+.images {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+
+.images img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.alex-kumar {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.images p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #d6cce8;
+}
+
+.social-icon {
+  display: flex;
+  gap: 14px;
+  margin-left: 138px; 
+  margin-top: 14px;
+}
+
+.social-icon img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  padding: 6px;
+  background: rgba(255,255,255,0.08);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.social-icon img:hover {
+  background: rgba(255,255,255,0.18);
+  transform: translateY(-2px);
+}
+
+.host-section{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.host-card {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #351165;
+  border-radius: 40px;
+  display: flex;
+  padding: 40px;
+  gap: 40px;
+  color: #ffffff;
+}
+.host-div{
+  padding-bottom: 120px;
+}
+
+.host-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.host-social {
+  display: flex;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.host-social img {
+  width: 28px;
+  height: 28px;
+  padding: 6px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.host-social img:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+/*=========== FOTTER ================*/
+
+
+.brand-gradient2 {
+  background: linear-gradient(80deg, #f7e93f, #fb09b4, #9100f8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-container {
+  position: relative;
+  background: radial-gradient(circle at top, #2b0b4f, #140722);
+  padding: 80px 20px 40px;
+  overflow: hidden;
+}
+
+/* Background wave */
+.footer-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+/* Content */
+.footer-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Brand */
+.brand2 {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.brand-gradient2 {
+  background: linear-gradient(90deg, #ff00cc, #7f00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-platforms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  margin: 18px 0 26px;
+  flex-wrap: wrap;
+}
+
+.footer-platforms a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #d6cce8;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.footer-platforms a:hover {
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+/* Copyright */
+.copyright {
+  font-size: 13px;
+  color: #b9addb;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .meet-host {
+    padding: 30px 24px;
+  }
+
+  .images {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .social-icon {
+    margin-left: 0;
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .host-card {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    padding: 40px 30px;
+  }
+
+  .host-content p {
+    max-width: 100%;
+  }
+
+  .host-social {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .brand2 {
+    font-size: 36px;
+  }
+
+  .footer-platforms {
+    gap: 18px;
+  }
 }
 
 
