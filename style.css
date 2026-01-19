@@ -133,34 +133,45 @@ body {
 .about-section {
   max-width: 1600px;
   margin: 0 auto;
-  padding: 120px 0;
   background: #1a0b2e;
   display: flex;           
   justify-content: center; 
   align-items: center; 
 }
+
 .about {
-  padding: 0 200px;
+  max-width: 1200px;
+  padding: 30px 200px 120px 200px;
 }
 
 .about-title {
-  font-size: 36px;
+  font-size: 3rem;
+  font-weight: bold;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .about-text {
-  max-width: 1200px;
-  line-height: 1.7;
+line-height: 20px;
+ font-size: 1rem;
+ text-align: center;
+ color: #FFFFFF;
 }
-
 .stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
-  margin-top: 50px;
+  gap: 80px;
+  text-align: center;
 }
 
 .stat-item h3 {
-  font-size: 32px;
-  margin-bottom: 6px;
+  font-size: 3rem;
+  padding-left: 36px;
+  padding-right: 36px;
+  color: #00FF88;
 }
+.stat-item p{
+  font-size: 1rem;
+  margin-top: -40px;
+}
+
